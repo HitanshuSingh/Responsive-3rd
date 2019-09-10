@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    padding-right: 10px;
+}
+.active{
+    color: lightblue!important;
+}
+.navbar{
+    padding: 0;
+    z-index: 111;
+}
+
+.nav-link{
+    font-size: 13px;
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    z-index: 111;
+}
+.bg-dark {
+    background-color: #0c2461!important;
+}
+ul li i{
+   position: relative;
+    top: 5px;
+}
+
+.slide{
+    width: 100%;
+}
+.footer-bg{
+    height: auto;
+}
+
+/*next*/
+.slide{
+    width: 100%;
+
+
+}
+.bgimage{
+    height: auto;
+
+}
+.containerbg{
+    width: 514px;
+    height: 319px;
+    position: absolute;
+    top: 160px;
+    right: 45%;
+
+}
+
+.containerbg>*{
+    padding: 10px;
+    color: white;
+
+}
+
+button{
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+    position: relative;
+    right: -9px;
+}
+
+.bt1{
+    background-color: #0984e3;
+}
+
+.bt2{
+    border: 2px solid white;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+/*nextpart*/
+
+.container2{
+    width: 100%;
+    height: auto;
+    background-color: #F3FFFC;
+}
+
+.heading{
+    padding-top: 60px;
+}
+
+.heading>*{
+    padding: 10px;
+}
+
+.videomaking{
+    width: 300px;
+    height: 141px;
+    background-color: white;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+
+.videomaking>*{
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+
+.videomaking, .part2, .part3{
+    margin: 10px;
+}
+
+.row2{
+    padding-bottom: 100px;
+}
+
+/*--------nextpart------------*/
+
+.container3{
+    width: 100%;
+    height: auto;
+
+}
+
+.workers1{
+    width: 250px;
+    height: 340px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.portfolio{
+    width: 100%;
+}
+
+.workers1>*{
+    margin: 5px;
+}
+
+.worker1, .second{
+    margin: 10px;
+}
+
+.moreworks{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+}
+/*---------next-------*/
+
+.container4{
+    width: 100%;
+    height: auto;
+    background-color:  #3498db;
+}
+
+.clients>*{
+    color: white;
+}
+
+
+.clnt1{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    text-align: left;
+    padding: 4px;
+    display: inline-block;
+}
+
+.sphere{
+    border-radius: 50%;
+    float: left;
+}
+
+.clnt1>*{
+    padding: 10px;
+}
+
+
+.clnt1, .owner2, .owner3{
+    margin: 17px;
+}
+
+
+.clntrow{
+    margin-top: 20px;
+}
+
+
+/*-------------nextpart------------*/
+
+.container5{
+    width: 100%;
+    height: auto;
+    background-color:#222942  ;
+    color:#B1BBE2;
+
+}
+
+.aboutus{
+    width: 250px;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+    vertical-align:top;
+    padding: 20px;
+
+
+}
+
+.footer1, .footer2, .footer3, .footer4{
+    padding-top: 40px;
+}
+
+input{
+    height: 30px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    background-color: #1E2438;
+}
+.fab.fa-telegram-plane{
+
+    padding: 7px;
+    background-color: #3498db;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*endmediaquery*/
+@media (max-width: 975px)
+{
+   .containerbg{
+       font-size: 13px;
+   }
+  .containerbg>h1{
+      font-size: 20px;
+  }
+  .containerbg{
+     padding-left: 200px;
+      top: 90px;
+
+  }
+}
+
+@media (max-width: 674px) {
+    .containerbg{
+        font-size: 11px;
+         right: 38px;
+        top: 60px;
+
+    }
+    .containerbg>h1{
+        font-size: 15px;
+    }
+}
